@@ -12,7 +12,7 @@ h1 { text-align: center;
   #para1{
 
     text-align: justify;
-    padding-right: 10px;
+    padding-left: 100px;
     padding-top: 10px;
     height: 400px; width: 800PX;
     font-size: x-large;
@@ -23,8 +23,9 @@ h1 { text-align: center;
 
   .car {
     display: flex;
-    height: 400px;
-    padding-top: 0px;
+    height: 500px;
+    padding-bottom: 0px;
+    padding-top: 5px;
 
   }
 
