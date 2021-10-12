@@ -1,5 +1,5 @@
 .container{
-    background-color: black;
+    background-color: #EA4319;
     overflow: hidden;
     padding: 10px;
     height:auto; width: auto
@@ -10,10 +10,10 @@ h1 { text-align: center;
 
 }
   #para1{
-    border: #FE8540;
+
     text-align: justify;
-    float: right;
     padding-right: 10px;
+    padding-top: 10px;
     height: 400px; width: 800PX;
     font-size: x-large;
     font-family: 'Times New Roman', Times, serif;
@@ -35,3 +35,5 @@ h1 { text-align: center;
     padding-bottom: 20px;
   }
   #ul1 {display: block;}
+
+  
