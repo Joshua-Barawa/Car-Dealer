@@ -28,12 +28,18 @@ input[type=text], select, textarea {
   /* Add a background color and some padding around the form */
   .container {
     border-radius: 5px;
-    background-color: orange;
+    background-color: lightyellow;
     padding: 50px;
+    justify-content: space-around;
   }
 
   .contact{
       color: #000;
       text-decoration: palegreen;
       text-shadow: peru;
+      text-align: center;
   }
+  .us{
+    color: orange;
+  }
+ 
