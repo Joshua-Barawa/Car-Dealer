@@ -329,15 +329,19 @@ display: block;
 
 
 
+.carousel{
+  outline: none;
 
+}
 
 .carousel-inner{
   margin: 0px 30px 0px 0px;
+  outline: none;
 
 }
 .carousel-inner .carousel-item img{
   padding-left: 450px;
-  border: none;
+  
 }
 
 
