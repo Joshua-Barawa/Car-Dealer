@@ -1,0 +1,347 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+    font-family: 'Poppins' sans-serif;
+    
+}
+
+.con{
+    width: 100%;
+    align-items: center;
+    padding: 0 8%;
+    margin-bottom: 0px;
+}
+
+.con h1{
+    margin-top: 60px;
+    font-size: 40px;
+    text-align: center;
+    color: rgb(63, 48, 59);
+    height: 50px;
+
+}
+
+
+.cars {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(500px, 1fr)) ;
+   grid-gap: 30px;
+   margin-bottom: 50px;
+}
+
+.cars .item{
+    display: flex;
+    justify-content: center;
+background: rgb(250, 248, 246);
+box-shadow: 2px 2px 10px rgb(53, 50, 50);
+animation: animate 2s linear;
+border-radius: 25px 25px;
+}
+
+.cars .item:hover{
+    transform: scale(1.05);
+    transition: 2s;
+    box-shadow: 0px ;
+    cursor: pointer;
+    background-image: linear-gradient(#30E8BF, #FF8235);
+    color: rgb(255, 255, 255);
+     }
+
+     @keyframes animate {
+         0%{
+             width: 0%;
+         }
+
+         100%{
+            width: 100%;
+        }
+     }
+
+.cars div img{
+    width: 50%; 
+}
+
+.cars div .description{
+width: 100%;
+height: 100%;
+display: block;
+
+}
+
+.cars div .description #btn{
+   font-size: 15px;
+   font-weight: bold;
+    border: none;
+    background-color: #EA4319;
+    padding: 10px 10px 10px 10px;
+    border-radius: 25px 25px;
+    text-transform: uppercase;
+    width: 50%;
+    color: white;
+   margin-bottom: 15px;
+ }
+
+ .cars div .description #btn:hover{
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(59, 169, 202);
+    -webkit-text-fill-color: rgb(59, 169, 202);
+   }
+
+ .cars div .description p{
+    font-size: 17px;
+    font-weight: bold;
+    padding: 0px;
+}
+
+
+  .active {
+    background-color: #fff;
+    border: 1px solid rgb(59, 169, 202);
+    -webkit-text-fill-color: rgb(59, 169, 202);
+   }
+
+
+  
+  .openBtn {
+    display: flex;
+    justify-content: left;
+  }
+
+  .openButton {
+    border: none;
+    border-radius: 5px;
+    background-color: #1c87c9;
+    color: white;
+    padding: 14px 20px;
+    cursor: pointer;
+    position: fixed;
+  }
+  .loginPopup {
+    position: relative;
+    text-align: center;
+    width: 100%;
+  }
+  .formPopup {
+      width: 400px;
+    display: none;
+    position: fixed;
+    left: 45%;
+    top: 5%;
+    transform: translate(-50%, 5%);
+    border: 3px solid #999999;
+    z-index: 9;
+  }
+  .formContainer {
+    max-width: 400px;
+    padding: 20px;
+    background-color: #fff;
+  }
+  .formContainer input[type=text],
+  .formContainer input[type=number] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 20px 0;
+    border: none;
+    background: #eee;
+  }
+  .formContainer input[type=text]:focus,
+  .formContainer input[type=number]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  .formContainer .btn {
+    padding: 12px 20px;
+    border: none;
+    background-color: #8ebf42;
+    color: #fff;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 15px;
+    opacity: 0.8;
+  }
+  .formContainer .cancel {
+    background-color: #cc0000;
+  }
+  .formContainer .btn:hover,
+
+  .openButton:hover {
+    opacity: 1;
+  }
+
+
+
+
+  .navbar{
+    background-color:orangered;
+    height:80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    
+  
+}
+.nav__container{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
+    
+}
+#navbar__logo{
+    background-color: #f3f5f1;
+    background-image: -o-linear-gradient(to top,#ffb199 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color:transparent;
+    -moz-text-fill-color:transparent;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+}
+.navbar__menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.navbar__item{
+    height: 80px;
+}
+.navbar__links{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 125px;
+    text-decoration: none;
+    height: 100%;
+    transition: all 0.3s ease;
+}
+
+.navbar__btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    width: 100%;
+}
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background:#ff8177;
+    color:blue;
+    transition:all0.3 sec;
+}
+ 
+ 
+
+.footer {
+  margin-left: -150px;
+  font:80% bold Verdana, Geneva, sans-serif ;
+  clear: both;
+  width: 100vw;
+  background-color: rgb(2, 2, 17);
+  text-align: center;
+  overflow-x: hidden;
+}
+.footer h1 {
+  color: #f4f4f4;
+  font-size: 1.5rem;
+}
+.fa {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 1rem;
+  color: #f4f4f4;
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+.fa .Follow {
+  text-align: left;
+  margin-bottom: 1rem;
+}
+.fa-twitter {
+  color: #007bb5;
+  margin-right: 1rem;
+}
+
+
+ .fa-facebook {
+  background: #007bb5;
+  margin-right: 1rem;
+} 
+.fa-instagram {
+  background-color: #007bb5;
+  margin-left: 1rem;
+}
+
+
+.fa:hover {
+    opacity: 0.7;
+}
+.footer2 {
+  border-top: 1px solid rgb(255, 253, 253);
+  padding-top: 1%;
+  display: flex;
+  justify-content: space-around;
+}
+.footer2 .white {
+  color: rgb(253, 253, 253);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.carousel{
+  outline: none;
+
+}
+
+.carousel-inner{
+  margin: 0px 30px 0px 0px;
+  outline: none;
+
+}
+.carousel-inner .carousel-item img{
+  padding-left: 450px;
+  
+}
+
+
