@@ -1,0 +1,261 @@
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 10px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color:EA4319;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: lightyellow;
+    padding: 50px;
+    justify-content: space-around;
+  }
+
+  .contact{
+      color: #000;
+      text-decoration: palegreen;
+      text-shadow: peru;
+      text-align: center;
+  }
+  .us{
+    color: orange;
+  }
+
+
+
+  /* nav bar */
+  *{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    font-family: 'kumb sans',sans-serif;
+    scroll-behavior: smooth;
+}
+.navbar{
+    background-color:orangered;
+    height:80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+.nav__container{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
+    
+}
+#navbar__logo{
+    background-color: #f3f5f1;
+    background-image: -o-linear-gradient(to top,#ffb199 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color:transparent;
+    -moz-text-fill-color:transparent;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+}
+.navbar__menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.navbar__item{
+    height: 80px;
+}
+.navbar__links{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 125px;
+    text-decoration: none;
+    height: 100%;
+    transition: all 0.3s ease;
+}
+
+.navbar__btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    width: 100%;
+}
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background:#ff8177;
+    color:blue;
+    transition:all0.3 sec;
+}
+.navbar__links:hover{
+    color: blue;
+    transition: all 0.3s ease;
+}
+@media screen and(max-width: 960px){
+navbar__container{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0;
+}
+.navbar__menu{
+    display: grid;
+    grid-template-columns: auto;
+    margin: 0;
+    width: 100%;
+    position: absolute;
+    /*top: -1000;*/
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+    background-color: #131313;
+}
+.navbar__menu.active{
+    background-color: #131313;
+    top:100%;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 99;
+    height: 60vh;
+    font-size: 1.6rem;
+
+}
+#navbar__log{
+    padding: 25px;
+}
+.navbar__toggle.bar {
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    transition: all 0.3 ease-in-out;
+    background: rgb(173, 173, 173);
+}
+.navbar__item{
+    width: 100px;
+}
+.navbar__links{
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+    display: table;
+}
+.navbar__btn{
+    padding-bottom: 2rem;
+}
+.button{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width: 80px;
+ height: 80px;
+ margin: 0;   
+}
+#mobile_menu{
+    position: absolute;
+    top: 20px;
+    right: 5%;
+    transform: translate(5%,20%);
+}
+
+
+}
+
+.wrapper{
+    margin: 0px auto;
+    width: 100%;
+}
+.footer {
+  position: relative;
+  font:80% bold Verdana, Geneva, sans-serif ;
+  clear: both;
+  height: 30%;
+  width: 100%;
+  background-color: rgb(2, 2, 17);
+  text-align: center;
+}
+.footer h1 {
+  color:black;
+  font-size: 1.5rem;
+}
+.fa {
+  align-items: center;
+  justify-content: center;
+  color: #f4f4f4;
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+.fa .Follow {
+  text-align: left;
+  margin-bottom: 1rem;
+}
+.fa-twitter {
+  color: #007bb5;
+  margin-right: 1rem;
+}
+ .fa-facebook {
+  background: #007bb5;
+  margin-right: 1rem;
+} 
+.fa-instagram {
+  background-color: #007bb5;
+  margin-right: 1rem;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.footer2 .white {
+  color: rgb(253, 253, 253);
+}
+
+
+
+
+
+
+
