@@ -1,40 +1,93 @@
 .container{
-    background-color: #EA4319;
+    
     overflow: hidden;
     padding: 10px;
-    height:auto; width: auto
-  }
-h1 { text-align: center;
-  padding: 20px;
-
-
+    height:auto; width: auto  
 }
-  #para1{
+h1 {
+    color: #EA4319;
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;}
+ 
+#para1{
 
-    text-align: justify;
-    padding-left: 100px;
+    text-align: left;
+    padding-left: 10px;
     padding-top: 10px;
-    height: 400px; width: 800PX;
+    height: 230px; width: 530PX;
     font-size: x-large;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 600px;
-    color: white;
-  }
-
-  .car {
-    display: flex;
-    height: 500px;
-    padding-bottom: 0px;
-    padding-top: 5px;
+    color:white;
+    background: rgba(0, 0, 0, 0.5);
 
   }
 
   ul { display: flex;
-  align-items: baseline;}
+    align-items: baseline;}
 
   #ap {
     padding-bottom: 20px;
   }
-  #ul1 {display: block;}
+  #ul1 {
+    display: block;
+  }
 
-  
+
+body {
+  margin: 0;
+  font-family: Arial;
+  font-size: 17px;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  z-index: -1;
+}
+
+.content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 10px;
+    height: 150px; width:1600PX;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600px;
+    color: white;
+    display: flex;
+    align-items: baseline;
+}
+#a {display: inline;
+    padding-bottom: 25px;
+    padding-left: 30px;
+    float: right;
+   }
+
+#b {display: inline;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    float: right;
+   }
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}

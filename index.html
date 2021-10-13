@@ -8,24 +8,47 @@
         <link rel="stylesheet" href="index.css">
     </head>
 
-<body>
-   <div class="container">
-        <h1>ABOUT US</h1>
-        <div class="car">
-             <img src="clear .png" alt="car">
-               <p id="para1">Prime motors is Nairobi based car dealer company,
-                        dealers of both ex-japan and ex-uk cars of high standard 
-                        and offer very competative prices. we accept: <strong> 
-                        Cash, hire purchase, trade-in and bank financing. </strong> 
-                        visit our showroom today @ prime motors building-Westlands 
-                        along waiyaki way to see our cars. 
-                        we are open all week-days from 8:00 am - 5:00pm. 
-                </p>         
-        </div>
-            <ul>  <img id="ap" src="appstore.png" height="90px">
-                  <img id="gp" src="playstore.png" height="130px">
-            </ul>                
-   </div>
+    <body>
+        <div class="container">
+                            <h1>ABOUT US</h1>
+                    <div class="car">
+                        
+                        <p id="para1">Prime motors is a Nairobi based Car Dealer Company,
+                                    dealers of both ex-Japan and ex-Uk cars of high standard 
+                                    and offer very competative prices. we accept: <strong> 
+                                    Cash, hire purchase, trade-in and bank financing. </strong> 
+                                    visit our showroom today @ prime motors building-Westlands 
+                                    along waiyaki way to see our cars. 
+                                    we are open all week-days from 8:00 am - 5:00pm. 
+                        </p>         
+                    </div>
+                        <video autoplay muted loop id="myVideo">
+                        <source src="happy buyer.mp4" type="video/mp4">
+                         Your browser does not support HTML5 video.
+                    </video>
+            
+                 <div class="content">
 
-</body>
+                        <div> <img id="ap" src="appstore.png" height="90px"></div>
+                        <div> <img id="gp" src="playstore.png" height="130px"></div>  
+                        <img id="a" src="fb1logo.png" alt="fb" height="80px" >
+                        <img id="b" src="whatsapp.png" alt="" height="100px">      
+             </div>
+                    
+            <script>
+                    var video = document.getElementById("myVideo");
+                    var btn = document.getElementById("myBtn");
+                    
+            function myFunction() {
+                if (video.paused) {
+                video.play();
+                btn.innerHTML = "Pause";
+                } else {
+                video.pause();
+                btn.innerHTML = "Play";
+                }
+            }
+            </script>
+        </div>
+    </body>
 </html>
