@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/cars.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" />
+    
+    
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav__container">
+        <a href="/" id="navbar__logo">Prime Motors</a>
+        <div class="navbar__toggle" id="mobile-menu"></div>
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </div>
+    <ul class="navbar__menu">
+        <li class="navbar__item">
+            <a href="index.html"class="navbar__links"id="home-page">Home</a>
+        </li>
+        <li class="navbar__item">
+            <a href="cars.html"class="navbar__links"id="cars-page">Cars</a>
+        </li>
+        <li class="navbar__item">
+        <a href="about_us.html"class="navbar__links"id="about-page">About Us</a>
+        </li>
+        <li class="navbar__item">
+          <a href="contact_page.html"class="navbar__links"id="contact-page">Contact Us</a>
+        </li>
+    </ul>
+</nav>
+
+  
+<div class="con">
+
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" style="width:100%;">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="2000">
+        <img src="https://www.bmw.vn/content/dam/bmw/common/all-models/x-series/x4/2018/navigation/180212_X4_Modellfinder_890x501.png/jcr:content/renditions/cq5dam.resized.img.585.low.time1518552719723.png"" class="d-block w-80" alt="..." height="400px">
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="http://pngimg.com/uploads/land_rover/land_rover_PNG80.png" class="d-block w-80" alt="..." height="400px">
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="https://s3.us-east-2.amazonaws.com/dealer-inspire-vps-vehicle-images/stock-images/thumbnails/large/chrome/ec0bc46c997c91c9053c38e9d55d5428.png" class="d-block w-80" alt="..." height="400px">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+
+      </h1> <h1>Lets Find You a Match</h1>
+      <div class="cars">
+    
+
+     <div class="item">
+          <img src="http://pngimg.com/uploads/land_rover/land_rover_PNG80.png">
+          <div class="description">
+            <p>Name: Range Rover</p>
+            <p>Top Speed: 180km </p>
+            <p>Seats: 4 </p>
+            <p>Color: White</p>
+            <p>Price: Ksh 6,500,000</p>
+            <button onclick="openForm()" id="btn" class="number">Place an Order</button>
+          </div>
+      </div>
+
+    
+
+    
+        <div class="item">
+        <img src="http://pngimg.com/uploads/land_rover/land_rover_PNG50.png">
+        <div class="description">
+          <p>Name: Range Rover</p>
+          <p>Top Speed: 180km </p>
+          <p>Seats: 4 </p>
+          <p>Color: Orange</p>
+          <p>Price: Ksh 6,000,000</p>
+          <button onclick="openForm()" id="btn" class="number">Place an Order</button>
+        </div>
+        </div>
+
+
+
+        <div class="item">
+        <img src="https://pngimg.com/uploads/subaru/subaru_PNG11945.png">
+        <div class="description">
+          <p>Name: Subaru Forester</p>
+          <p>Top Speed: 180km </p>
+          <p>Seats: 4 </p>
+          <p>Color: Black</p>
+          <p>Price: Ksh 1,800,000</p>
+          <button onclick="openForm()" id="btn" class="number">Place an Order</button>
+        </div>
+        </div>
+
+
+
+        <div class="item">
+          <img src="https://s3.us-east-2.amazonaws.com/dealer-inspire-vps-vehicle-images/stock-images/thumbnails/large/chrome/ec0bc46c997c91c9053c38e9d55d5428.png">
+          <div class="description">
+            <p>Name: Mercedes-Benz GLB 250</p>
+            <p>Top Speed: 180km </p>
+            <p>Seats: 4 </p>
+            <p>Color: White</p>
+            <p>Price: Ksh 5,00,000</p>
+            <button onclick="openForm()" id="btn" class="number">Place an Order</button>
+        </div>
+          </div>
+     
+        
+
+
+        <div class="item">
+          <img src="https://www.bmw.vn/content/dam/bmw/common/all-models/x-series/x1/2019/navigation/BMW-X1_ModelCard.png/jcr:content/renditions/cq5dam.resized.img.585.low.time1559069834528.png">
+          <div class="description">
+            <p>Name: BMW X1</p>
+            <p>Top Speed: 180km </p>
+            <p>Seats: 4 </p>
+            <p>Color: white</p>
+            <p>Price: Ksh 1,700,000</p>
+            <button onclick="openForm()" id="btn" class="number">Place an Order</button>
+          </div>
+      </div>
+
+      <div class="item">
+        <img src="https://www.bmw.vn/content/dam/bmw/common/all-models/x-series/x3/2019/navigation/bmw-g01-modelfinder-stage2-890x501.png/jcr:content/renditions/cq5dam.resized.img.585.low.time1550575533645.png">
+        <div class="description">
+          <p>Name: BMW X3</p>
+          <p>Top Speed: 180km </p>
+          <p>Seats: 4 </p>
+          <p>Color: Blue</p>
+          <p>Price: Ksh 2,500,000</p>
+          <button onclick="openForm()" id="btn" class="number">Place an Order</button>
+        </div>
+      </div>
+
+      <div class="item">
+          <img src="https://www.bmw.vn/content/dam/bmw/common/all-models/x-series/x6/2019/navigation/BMW-X6_ModelCard.png/jcr:content/renditions/cq5dam.resized.img.585.low.time1594294634857.png">
+          <div class="description">
+            <p>Name: BMW 6</p>
+            <p>Top Speed: 180km </p>
+            <p>Seats: 4 </p>
+            <p>Color: Brown</p>
+            <p>Price: Ksh 5,500,00</p>
+            <button onclick="openForm()" id="btn" class="number">Place an Order</button>
+          </div>
+        </div>
+
+        <div class="item">
+        <img src="https://www.bmw.vn/content/dam/bmw/common/all-models/x-series/x4/2018/navigation/180212_X4_Modellfinder_890x501.png/jcr:content/renditions/cq5dam.resized.img.585.low.time1518552719723.png">
+        <div class="description">
+        <p>Name: BMW 4</p>
+        <p>Top Speed: 180km </p>
+        <p>Seats: 4 </p>
+        <p>Color: Red</p>
+        <p>Price: Ksh 4,500,00</p>
+        <button onclick="openForm()" id="btn" class="number">Place an Order</button>
+        </div>
+        </div>
+        
+      </div>
+
+      <div class="formPopup" id="popupForm">
+      <form action="#" class="formContainer">
+        <h2>Order Form</h2>
+        <label for="email">
+          <strong>E-mail</strong>
+        </label>
+        <input type="text" id="email" name="email" required>
+        <label for="full-names">
+          <strong>Full Names</strong>
+        </label>
+        <input type="text" id="names" name="psw" required>
+
+        <label for="gender">
+          <strong>Gender</strong>
+        </label>
+        <input type="text" id="gender" name="gender" required>
+
+        <label for="city">
+          <strong>City</strong>
+        </label>
+        <input type="text" id="city" name="city" required>
+
+        <label for="address">
+          <strong>Address</strong>
+        </label>
+        <input type="text" id="address" name="address" required>
+
+        <label for="code">
+          <strong>Posta-Code</strong>
+        </label>
+        <input type="number" id="code" name="code" required>
+
+        <button type="submit" class="btn" onclick="sendEmail()">Place Order</button>
+        <button type="button" class="btn cancel" onclick="closeForm()">Cancel Order</button>
+      </form>
+
+    </div>
+
+
+    <footer class="footer">
+
+      <div class="container">
+
+          <div class="row">
+              <div class="col-md-12 py-5">
+
+                  <div class="fa">
+                      <section class="Follow">
+                          <h1>Follow us on: </h1>
+                      </section>
+
+                      <a href="/" target="_blank" rel="noopener noreferrer" class="tw-ic">
+                          <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                      </a>
+                      </a>
+                      <a href="/" target="_blank" rel="noopener noreferrer" class="fb-ic">
+                          <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                      </a>
+                      <a href="/" target="_blank" rel="noopener noreferrer" class="ins-ic">
+                          <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                      </a>
+
+                      </a>
+                  </div>
+              </div>
+
+          </div>
+
+      </div>
+
+      <div class="footer2">
+          <footer>
+              <p class="white"> Copyright &copy;2021. All Rights Reserved. </p>
+              <p class="white"> Designed by Prime | <strong> Terms of Service |</strong>
+                  <strong>Privacy Policy</strong>
+              </p>
+          </footer>
+          <div>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7905456584845!2d36.782395515294084!3d-1.300526936010006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f109dcb26a413%3A0xca1c503989df391d!2sNgong%20Lane%20Plaza!5e0!3m2!1sen!2ske!4v1634107893695!5m2!1sen!2ske" width="600" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe> 
+          </div>
+      </div>
+
+  </footer>
+
+</div>
+
+
+    <script src="index.js">
+      
+    </script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
