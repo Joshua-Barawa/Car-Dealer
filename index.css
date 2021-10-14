@@ -97,7 +97,7 @@ body {
   width: 100%;
   max-width: 1400px;
   margin: 0 auto;
-  padding: 0 50px;
+  padding: 0 40px;
   
 }
 #navbar__logo{
@@ -121,16 +121,18 @@ body {
 }
 .navbar__item{
   height: 80px;
+    padding: auto;
 }
 .navbar__links{
   color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 125px;
+  width: 100px;
   text-decoration: none;
   height: 100%;
   transition: all 0.3s ease;
+   padding: auto;
 }
 
 .navbar__btn{
