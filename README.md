@@ -5,10 +5,11 @@
 
 ## Table of Content
 ​
-- [Car-Dealer-Website](#car-dealer-website)
-      - [13/10/2021](#2992021)
+- [Car Dealer Website](#car-dealer-website)
+      - [13/10/2021](#13/10/2021)
   - [Table of Content](#table-of-content)
   - [Description](#description)
+  - [Contributors](#contributors)
   - [Setup/Installation Requirements](#setupinstallation-requirements)
   - [Visuals](#visuals)
   - [Technologies Used](#technologies-used)
@@ -18,7 +19,12 @@
 
 
 ## Description
-This project is a website where we connect different car dealers to help them users buy cars form them. It also helps user get conected with the best dealers in town
+This project is a website where we connect different car dealers to help them get potential clients to buy cars from them. It also helps user get conected with the best dealers in town
+## Contributors
+1.Silver Norman- Home Page
+2.Joshua Barawa- Cars Page
+3.Erick Njeru- About Page
+4.Trevin Livele- Contact Page
 ## Setup/Installation Requirements
 * Clone or download the project from my repo https://github.com/Joshua-Barawa/Car-Dealer
 * Extract the project 
@@ -29,13 +35,13 @@ This project is a website where we connect different car dealers to help them us
 * The project was developed using HTML/CSS and JavaSript
 * I used Visual Studio as my development tool
 ## Support and contact details
-* If you get any issue contact mwamlandabarawa@gmail.com
+* If you get any issue contact cardealer@gmail.com
 ### License
 MIT License
 
 
 ​
-Copyright (c) 2021 Joshua.M.Barawa
+Copyright (c) 2021 
 
 
 
