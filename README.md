@@ -21,10 +21,10 @@
 ## Description
 This project is a website where we connect different car dealers to help them get potential clients to buy cars from them. It also helps user get conected with the best dealers in town
 ## Contributors
-* 1.Silver Norman- Home Page
-* 2.Joshua Barawa- Cars Page
-* 3.Erick Njeru- About Page
-* 4.Trevin Livele- Contact Page
+* Silver Norman- Home Page
+* Joshua Barawa- Cars Page
+* Erick Njeru- About Page
+* Trevin Livele- Contact Page
 ## Setup/Installation Requirements
 * Clone or download the project from my repo https://github.com/Joshua-Barawa/Car-Dealer
 * Extract the project 
