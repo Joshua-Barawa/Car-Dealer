@@ -19,7 +19,7 @@
 
 
 ## Description
-This project is a website where we connect different car dealers to help them get potential clients to buy cars from them. It also helps user get conected with the best dealers in town
+This project is a website where we connect different car dealers to help them get potential clients to buy cars from them. It also helps user get connected with the best dealers in town
 ## Contributors
 * Silver Norman- Home Page
 * Joshua Barawa- Cars Page
